@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>daalgawar10</title>
+        <style type="text/css">
+
+        body{
+            background:#ffe599;
+        }
+        .flexbox{
+            width: 1500px;
+            height: 500px;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            flex-flow: row wrap;
+        }
+
+        .flexbox > #neg{
+            transition: 1s ease-in-out;
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            padding: 20px;
+            background-color: blue;
+        }
+
+        
+        .flexbox > #hoyr{
+            transition: 1s ease-in-out;
+            width: 300px;
+            height: 340px;
+            margin: 10px;
+            padding: 20px;
+            background-color: green;
+        }
+
+        
+        .flexbox > #guraw{
+            transition: 1s ease-in-out;
+            width: 300px;
+            height: 250px;
+            margin: 10px;
+            padding: 20px;
+            background-color: palevioletred;
+        }
+
+
+        .flexbox > #neg:hover{
+            width: 300px;
+            height: 300px;  
+        }
+
+        .flexbox > #hoyr:hover{
+            width: 300px;
+            height: 300px;  
+        }
+
+        .flexbox > #guraw:hover{
+            width: 300px;
+            height: 300px;  
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="flexbox">
+            <div id="neg"></div>
+            <div id="hoyr"></div>
+            <div id="guraw"></div>
+        </div>
+    </body>
+</html>

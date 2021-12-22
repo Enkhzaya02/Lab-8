@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>daalgawar7</title>
+        <style type="text/css">
+        .skew .textbox{
+            margin-left: 75px;
+            background: lightgreen;
+            height: 100px;
+            width: 200px;
+            padding:25px 0;
+            text-align: center;
+            font-size: 250%;
+            border: 3px solid darkgreen;
+            border-radius: 15px;
+            transform: skewX(-45deg);
+            animation: skew 3s infinite linear;
+        }
+
+        @keyframes skew {
+            from{transform: skewY(0deg);}
+            10%{transform: skewY(30deg);}
+            25%{transform: skewY(0);}
+            40%{transform: skewY(-30deg);}
+            55%{transform: skewX(0);}
+            65%{transform: skewX(30deg);}
+            80%{transform: skewX(0);}
+            90%{transform: skewX(-30deg);}
+            to{transform: skewX(0);}
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="skew">
+            <div class="textbox">Skewing Text</div>
+        </div>
+    </body>
+</html>
